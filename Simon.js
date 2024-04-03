@@ -138,7 +138,7 @@ function checkAns(idx){
 
 
 
-        h2.innerHTML = `Gamne over ! Your score was <b> ${level}</b> <br> Press any key to start`;
+        h2.innerHTML = `Game over ! Your score was <b> ${level}</b> <br> Press any key to start`;
 
         document.querySelector("body").style.backgroundColor = "red";
 
