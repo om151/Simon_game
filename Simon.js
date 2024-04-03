@@ -86,7 +86,7 @@ function levelUp(){
 
 
 
-    let randIdx = Math.floor(Math.random()*3);
+    let randIdx = Math.floor(Math.random()*4);
 
     // console.log(randIdx);
 
