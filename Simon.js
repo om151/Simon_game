@@ -36,6 +36,16 @@ document.addEventListener("keypress", function(){
 
 })
 
+let playBtn = document.querySelector(".startButton");
+
+playBtn.addEventListener("click", function(){
+    if(started == false){ 
+        started = true;
+    
+        levelUp();
+       }
+});
+
 
 
 
